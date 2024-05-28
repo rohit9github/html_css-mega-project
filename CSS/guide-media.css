@@ -1,0 +1,135 @@
+@media (max-width : 991px) {
+    .container{
+        max-width: 960px;
+    }
+    .w-md-1{
+        width: 100%;
+    }
+    .w-md-2{
+        width: 50%;
+    }
+    .w-md-3{
+        width: 33.33%;
+    }
+    .md-text-center{
+        text-align: center;
+    }
+    .active{
+        animation: none;
+    }
+    nav {
+        display: none;
+        position: absolute;
+        top : 100%;
+        left: 0;
+        right: 0;
+        background-color: #111827d8;
+    }
+    nav ul {
+        flex-direction: column;
+    }
+    nav ul li{
+        margin: 14px 0 14px 30px;
+    }
+    header nav ul li a{
+        color: #ffffff;
+    }
+    header nav ul li a:hover{
+        color: #db2319;
+    }
+
+    header .header-btn {
+        display: none;
+    }
+
+    .toggle-btn {
+        display: block !important;
+    }
+    .guide-inner .guide-img img{
+        width: 90%;
+    }
+    .guide-img .guide-img-item{
+        bottom: -16%;
+        right: 6%;
+    }
+    .guide-img .guide-img-item img{
+        width: 102%;
+    }
+    .guide-img{
+        margin: 0;
+    }
+    .guide .guide-content {
+        margin-top: 100px;
+    }
+    .footer-inner .w-5:first-child {
+        order: 1;
+    }
+
+    .footer-inner .w-5:first-child,
+    .footer-inner .w-5:last-child {
+        margin-top: 40px;
+    }
+
+    .footer-items {
+        margin: 0;
+    }
+
+    .w-5:last-child .footer-items a {
+        right: 53%;
+    }
+
+    .footer-inner .footer-items p {
+        max-width: 200px;
+    }
+}
+@media (max-width : 767px) {
+    .container{
+        max-width: 720px;
+    }
+    .guide-img .guide-img-item{
+        bottom: -17%;
+        right: 0%;
+    }
+    .guide-img .guide-img-item img{
+        width: 80%;
+    }
+    .w-5:last-child .footer-items a {
+        right: 34%;
+    }
+}
+@media (max-width : 575px) {
+    .container{
+        max-width: 540px;
+    }
+    .w-xs-1{
+        width: 100%;
+    }
+    .guide{
+        margin: 80px 0;
+    }
+    .guide-inner .guide-img img{
+        width: 100%;
+    }
+    .guide-img .guide-img-item{
+        bottom: -17%;
+        right: -11%;
+    }
+    .guide-img .guide-img-item img{
+        width: 66%;
+    }
+    .guide-content h3{
+        text-align: center;
+    }
+    .footer-items {
+        margin: 0 4px;
+    }
+
+    .w-5:nth-child(3) .footer-items {
+        margin: 16px 0;
+    }
+
+    .w-5:last-child .footer-items a {
+        right: 5%;
+        top: 56%;
+    }
+}
